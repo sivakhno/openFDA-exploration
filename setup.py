@@ -10,7 +10,7 @@ required_packages = [
     "python-dotenv>=0.0.5",
     "pandas>=0.24.2",
     "requests",
-        "tinydb"
+    "tinydb"
 ]
 
 setup(
