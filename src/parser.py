@@ -44,6 +44,13 @@ def get_record_id(record):
 
 
 def parser_base(inpath, custom_parser, raw_data_db_base, parsed_data_db_base):
+    '''
+    Extracts and saves information from raw openFDA records data using custom_parser. 
+    :inpath: db directory
+    :custom_parser: function specifying parsing rules
+    :raw_data_db_base: base name for raw openFDA records data
+    :parsed_data_db_base: base name for processed openFDA records data
+    '''
     parser_name = custom_parser.__name__.replace('parse_', '')
     db_name = f'{inpath}/{parsed_data_db_base}_{parser_name}.json'
     logger.info(f'Writing to db {db_name}')

@@ -25,11 +25,20 @@ gh_session = requests.Session()
 
 
 def get_num_api_keys(api_keys_file=f'{_path}/../data/api_keys.txt'):
+    '''
+    Returns number of API keys in db.
+    :api_keys_file: path to the file with API keys
+    '''
     with open(api_keys_file, 'r') as api_key_filehandle:
         return len(api_key_filehandle.read().splitlines())
 
 
 def count_records(name, api_key):
+    '''
+    Counts number of records for a given openFDA field.
+    :api_keys_file: openFDA field
+    :api_keys_file: API key
+    '''
     logging.debug(f'counting number of records in field {name}')
     repos_url = f'https://api.fda.gov/drug/event.json?api_key={api_key}&count={name}'
     data = json.loads(gh_session.get(url=repos_url).text)
@@ -42,6 +51,11 @@ def count_records(name, api_key):
 
 
 def total_counts_records(name, api_key):
+    '''
+    Counts total number of records for a given openFDA field.
+    :name: openFDA field
+    :api_key: API key
+    '''
     fields = count_records(name, api_key)
     try:
         results = sum([field['count'] for field in fields])
@@ -52,12 +66,28 @@ def total_counts_records(name, api_key):
 
 
 def get_api_key(num_process, api_keys_file=f'{_path}/../data/api_keys.txt'):
+    '''
+    Returns API key for line num_process of api_keys_file
+    TODO: check for index within bounds
+    :num_process: openFDA field
+    :api_keys_file: path to the file with API keys
+    '''
     with open(api_keys_file, 'r') as api_key_filehandle:
         api_keys = api_key_filehandle.read().splitlines()
     return api_keys[num_process]
 
 
 def retrieve_records(db, api_key, size, start_date, end_date, skip_value_limit, process_index):
+    '''
+    Returns API key for line num_process of api_keys_file
+    :db: db connection
+    :api_key: API key
+    :size: openFDA API limit parameter
+    :start_date: start date for openFDA date query of the form %Y%m%d
+    :end_date: end date for openFDA date query of the form %Y%m%d
+    :skip_value_limit openFDA max skip parameter value
+    :process_index index of the multiprocessing lib process
+    '''
     skip = 0
     date_range_query = f'search=receivedate:[{start_date}+TO+{end_date}]'
     while size + skip < skip_value_limit:
@@ -86,6 +116,13 @@ def retrieve_records(db, api_key, size, start_date, end_date, skip_value_limit, 
 
 def retrieve_records_wrapper(time_delta, outpath, start_date, process_index):
     with TinyDB(f'{outpath}/{RAW_DATA_DB_BASE}{process_index}.json') as db:
+        '''
+        Wrapper pre-processing information for retrieve_records
+        :time_delta: time delta for openFDA date query
+        :outpath: location of db folder
+        :start_date: start date for openFDA date query
+        :process_index: index of the multiprocessing lib process
+        '''
         end_date_str = (start_date + time_delta).strftime('%Y%m%d')
         start_date_str = start_date.strftime('%Y%m%d')
         skip_value_limit = SKIP_VALUE_LIMIT

@@ -8,13 +8,12 @@ flake8 = "*"
 mypy = "*"
 pytest = "*"
 pytest-mock = "*"
-skills-model = {editable = true,path = "."}
+openFDA-exploration = {editable = true,path = "."}
 
 [packages]
 pytest = "*"
 pytest-mock = "*"
-skills-model = {editable = true,path = "."}
-openfa-exploration = {editable = true,path = "."}
+openFDA-exploration = {editable = true,path = "."}
 
 [requires]
 python_version = "3.7"

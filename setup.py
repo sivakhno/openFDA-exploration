@@ -16,11 +16,10 @@ required_packages = [
 setup(
     name="openFA exploration",
     version="v1",
-    description="Training and deploying skills models package based on Amazon SageMaker.",
     packages=find_packages(),
     py_modules=[os.path.splitext(os.path.basename(path))[0]
                 for path in glob("src/*.py")],
     author="Sergii Ivakhno",
-    url="https://github.com/aws/sagemaker-python-sdk/",
+    url="https://github.com/headstart-app/indeed-cvs-parser",
     install_requires=required_packages
     )

@@ -17,7 +17,6 @@ _path = os.path.dirname(os.path.abspath(__file__))
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--num_time_ranges', type=int, default=2) 
-    parser.add_argument('--upload_to_s3', action='store_true', help='run on subset of data')
     parser.add_argument('--parse_from_crawled', action='store_true', help='parse previously saved records')
     parser.add_argument('--db_dir', help='parse previously saved records', required=False)
 

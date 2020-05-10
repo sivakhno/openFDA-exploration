@@ -6,6 +6,11 @@ import logging
 
 
 def get_date_processid_tuples(periods, n_cpus):
+    '''
+    Given number of time periods and number of cpus,
+    assigns particular date period to cpu, i.e.
+    [1, 2, 3, 4], 2 -> [(1,0), (2,1), (3,0), (4,1)]
+    '''
     cpus = list(range(n_cpus)) * math.ceil(len(periods)/n_cpus)
     n_elements = min(len(periods), len(cpus))
     date_processid_tuples = [(periods[i], cpus[i]) for i in range(n_elements)]
@@ -13,6 +18,13 @@ def get_date_processid_tuples(periods, n_cpus):
 
 
 def get_date_periods(n_periods, n_cpus, start_date, end_date):
+    '''
+    Creates date ranges and time_delata from start, end date and number of cpus
+    :n_periods: number of time periods
+    :n_cpus: number of cpus
+    :start_date: start date for openFDA date query
+    :end_date: end date for openFDA date query
+    '''
     start_date = start_date
     end_date = end_date
     periods = pd.date_range(start=start_date, end=end_date, periods=n_periods)
