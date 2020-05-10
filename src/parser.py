@@ -36,11 +36,11 @@ def get_all_generic_names(record):
 
 
 def get_occurcountry(record):
-    record['occurcountry']
+    return record['occurcountry']
 
 
 def get_record_id(record):
-    record['safetyreportid']
+    return record['safetyreportid']
 
 
 def parser_base(inpath, custom_parser, raw_data_db_base, parsed_data_db_base):
