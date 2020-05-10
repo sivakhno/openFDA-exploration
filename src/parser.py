@@ -39,6 +39,10 @@ def get_occurcountry(record):
     record['occurcountry']
 
 
+def get_record_id(record):
+    record['safetyreportid']
+
+
 def parser_base(inpath, custom_parser, raw_data_db_base, parsed_data_db_base):
     parser_name = custom_parser.__name__.replace('parse_', '')
     db_name = f'{inpath}/{parsed_data_db_base}_{parser_name}.json'
@@ -74,8 +78,10 @@ def parse_all_records(result_final, record):
     result_final['activesubstancename'] = get_activesubstance(record)
     result_final['substance_name'] = get_substance_name(record)
     result_final['occurcountry'] = get_substance_name(record)
+    result_final['id'] = get_record_id(record)
 
 
 def parse_drugindication(result_final, record):
     result_final['reactionmeddrapt'] = get_reactionmeddrapt(record)
     result_final['drugindication'] = get_drugindication(record)
+    result_final['id'] = get_record_id(record)
