@@ -85,3 +85,14 @@ def parse_drugindication(result_final, record):
     result_final['reactionmeddrapt'] = get_reactionmeddrapt(record)
     result_final['drugindication'] = get_drugindication(record)
     result_final['id'] = get_record_id(record)
+
+
+def parse_taken_together(result_final, record):
+    result_final['generic_name'] = get_drugindication(record)
+    result_final['id'] = get_record_id(record)
+
+
+def parse_reaction_by_country(result_final, record):
+    result_final['occurcountry'] = get_substance_name(record)
+    result_final['reactionmeddrapt'] = get_reactionmeddrapt(record)
+    result_final['id'] = get_record_id(record)

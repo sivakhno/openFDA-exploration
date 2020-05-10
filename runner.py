@@ -8,7 +8,8 @@ from src.utils import get_date_periods, create_timestamped_folder
 from src.api import retrieve_records_wrapper, \
      DATA_DB_DIR_BASE, RAW_DATA_DB_BASE, PARSED_DATA_DB_BASE, \
      DEFAULT_START, DEFAULT_END
-from src.parser import parse_all_records, parse_drugindication, parser_base
+from src.parser import parse_all_records, parse_drugindication, parser_base, \
+     parse_taken_together, parse_reaction_by_country
 
 _path = os.path.dirname(os.path.abspath(__file__))
 
@@ -44,3 +45,5 @@ if __name__ == '__main__':
     else:
         parser_base(args.db_dir, parse_all_records, RAW_DATA_DB_BASE, PARSED_DATA_DB_BASE)
         parser_base(args.db_dir, parse_drugindication, RAW_DATA_DB_BASE, PARSED_DATA_DB_BASE)
+        parser_base(args.db_dir, parse_taken_together, RAW_DATA_DB_BASE, PARSED_DATA_DB_BASE)
+        parser_base(args.db_dir, parse_reaction_by_country, RAW_DATA_DB_BASE, PARSED_DATA_DB_BASE)
