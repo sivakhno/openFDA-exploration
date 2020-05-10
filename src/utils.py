@@ -12,10 +12,10 @@ def get_date_processid_tuples(periods, n_cpus):
     return date_processid_tuples
 
 
-def get_date_periods(n_periods, n_cpus, default_start='1/1/2014', default_end='1/1/2020'):
-    default_start = default_start
-    default_end = default_end
-    periods = pd.date_range(start=default_start, end=default_end, periods=n_periods)
+def get_date_periods(n_periods, n_cpus, start_date, end_date):
+    start_date = start_date
+    end_date = end_date
+    periods = pd.date_range(start=start_date, end=end_date, periods=n_periods)
     time_delata = (periods[1]-periods[0])-pd.Timedelta(days=1)
     date_processid_tuples = get_date_processid_tuples(periods, n_cpus)
     return date_processid_tuples, time_delata

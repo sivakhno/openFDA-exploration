@@ -6,7 +6,8 @@ from functools import partial
 
 from src.utils import get_date_periods, create_timestamped_folder
 from src.api import retrieve_records_wrapper, \
-     DATA_DB_DIR_BASE, RAW_DATA_DB_BASE, PARSED_DATA_DB_BASE
+     DATA_DB_DIR_BASE, RAW_DATA_DB_BASE, PARSED_DATA_DB_BASE, \
+     DEFAULT_START, DEFAULT_END
 from src.parser import parse_all_records, parse_drugindication, parser_base
 
 _path = os.path.dirname(os.path.abspath(__file__))
@@ -32,7 +33,8 @@ if __name__ == '__main__':
     n_cpus = max(mp.cpu_count(), 2)
 
     if not args.parse_from_crawled:
-        date_processid_tuples, time_delata = get_date_periods(args.num_time_ranges, n_cpus)
+        date_processid_tuples, time_delata = get_date_periods(
+            args.num_time_ranges, n_cpus, DEFAULT_START, DEFAULT_END)
         outpath = create_timestamped_folder(_path, DATA_DB_DIR_BASE)
         retrieve_records_wrapper_partial = partial(retrieve_records_wrapper, time_delata, outpath)
         with mp.Pool(processes=n_cpus) as pool:

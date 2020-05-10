@@ -17,6 +17,8 @@ SKIP_VALUE_LIMIT = 25000
 RAW_DATA_DB_BASE = 'db_raw'
 PARSED_DATA_DB_BASE = 'db_parsed'
 DATA_DB_DIR_BASE = 'db_dir'
+DEFAULT_START = '1/1/2014'
+DEFAULT_END = '1/1/2020'
 
 _path = os.path.dirname(os.path.abspath(__file__))
 gh_session = requests.Session()
