@@ -88,7 +88,7 @@ def parse_drugindication(result_final, record):
 
 
 def parse_taken_together(result_final, record):
-    result_final['generic_name'] = get_drugindication(record)
+    result_final['generic_name'] = get_generic_name(record)
     result_final['id'] = get_record_id(record)
 
 
