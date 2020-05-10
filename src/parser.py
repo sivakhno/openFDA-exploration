@@ -93,6 +93,6 @@ def parse_taken_together(result_final, record):
 
 
 def parse_reaction_by_country(result_final, record):
-    result_final['occurcountry'] = get_substance_name(record)
+    result_final['occurcountry'] = get_occurcountry(record)
     result_final['reactionmeddrapt'] = get_reactionmeddrapt(record)
     result_final['id'] = get_record_id(record)
