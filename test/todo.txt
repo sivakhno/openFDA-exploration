@@ -1,0 +1,3 @@
+1. add unit test and run pipenv run python -m pytest ./test -m unit
+2. format and run linting python -m pipenv run flake8 --config=test/flake_config.ini
+3. add and run typechecker

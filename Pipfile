@@ -14,6 +14,7 @@ openFDA-exploration = {editable = true,path = "."}
 pytest = "*"
 pytest-mock = "*"
 openFDA-exploration = {editable = true,path = "."}
+openfa-exploration = {editable = true,path = "."}
 
 [requires]
 python_version = "3.7"
