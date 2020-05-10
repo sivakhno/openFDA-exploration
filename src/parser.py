@@ -44,7 +44,7 @@ def parser_base(inpath, custom_parser, raw_data_db_base, parsed_data_db_base):
     db_name = f'{inpath}/{parsed_data_db_base}_{parser_name}.json'
     logger.info(f'Writing to db {db_name}')
     db_processed = TinyDB(db_name)
-    db_partitions = glob.glob(f'{inpath}/{raw_data_db_base}/temp_db_*.json')
+    db_partitions = glob.glob(f'{inpath}/{raw_data_db_base}*.json')
     for db_partition in db_partitions:
         with TinyDB(db_partition) as db:
             sizedb = len(db)
