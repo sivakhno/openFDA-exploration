@@ -16,9 +16,9 @@ _path = os.path.dirname(os.path.abspath(__file__))
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--num_time_ranges', type=int, default=2) 
+    parser.add_argument('--num_time_ranges', type=int,  help='number of time periods to search over', default=2) 
     parser.add_argument('--parse_from_crawled', action='store_true', help='parse previously saved records')
-    parser.add_argument('--db_dir', help='parse previously saved records', required=False)
+    parser.add_argument('--db_dir', help='path to db folder', required=False)
 
     try:
         args = parser.parse_args()
