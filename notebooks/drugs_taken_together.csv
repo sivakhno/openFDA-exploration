@@ -1,0 +1,10 @@
+,cluster_id,drugs,mean_dist
+0,40, and tenofovir alafenamide  and tenofovir disoproxil fumarate  cobicistat  emtricitabine elvitegravir,0.3737150026417128
+1,79, ascorbic acid  potassium chloride  sodium ascorbate  sodium sulfate polyethylene glycol 3350,0.25684509757129453
+2,68, calcium chloride  magnesium chloride  sodium chloride  sodium lactate dextrose monohydrate icodextrin,0.314416904408181
+3,282,adalimumab etanercept folic acid methotrexate prednisone,0.6805607619057564
+4,350,atazanavir darunavir emtricitabine and tenofovir disoproxil fumarate raltegravir ritonavir,0.6128177422285807
+5,188,aztreonam dornase alfa ivacaftor lumacaftor and ivacaftor pancrelipase tobramycin,0.6749487570003709
+6,295,basiliximab methylprednisolone mycophenolate mofetil prednisolone tacrolimus,0.6489929282684175
+7,324,dexlansoprazole esomeprazole magnesium lansoprazole omeprazole magnesium pantoprazole sodium,0.25785157589573765
+8,367,didanosine indinavir sulfate nelfinavir mesylate nevirapine stavudine,0.6443747621577495

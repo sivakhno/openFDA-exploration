@@ -1,0 +1,64 @@
+,countries,adverse_effect
+0,AL KH,abdominal discomfort
+1,SD,abdominal distension
+2,VE,adverse event
+3,BD ME,alopecia
+4,HT MT,atrial fibrillation
+5,AD PY,back pain
+6,AZ PS,blood glucose increased
+7,AZ PA,blood pressure increased
+8,PF,bronchitis
+9,BF,chest discomfort
+10,BY LY PA PY,chest pain
+11,NA,chills
+12,IS KP TT,completed suicide
+13,CM KP,confusional state
+14,BY PY SZ,decreased appetite
+15,BD CD,dehydration
+16,FX KP MN TT,depression
+17,IQ IT JO SA,drug abuse
+18,AL IO VI,drug dose omission
+19,AD VI,drug effect incomplete
+20,PF,drug intolerance
+21,CM DM VI,dysphagia
+22,OM SV VI,epistaxis
+23,AD BD MT,erythema
+24,CR IS LS PA,fall
+25,BO JM JO KH,haemorrhage
+26,KY NL,hospitalisation
+27,FX OM,hyperhidrosis
+28,BY CM IQ,hypersensitivity
+29,BO,hypoaesthesia
+30,KG,inappropriate schedule of drug administration
+31,BO SN,infection
+32,IQ,influenza
+33,KH KP MC,insomnia
+34,FI,intentional product misuse
+35,AZ BY KH PS,loss of consciousness
+36,AM BO DM FX,muscle spasms
+37,DM SV,muscular weakness
+38,MC,myalgia
+39,BY HN JM PH,myocardial infarction
+40,AN PA,nasopharyngitis
+41,CD CM PA TT,oedema peripheral
+42,IQ,oropharyngeal pain
+43,BF BH VI,palpitations
+44,PY,paraesthesia
+45,TT,peripheral swelling
+46,BY GH HN KH,platelet count decreased
+47,NI,product quality issue
+48,CM MG,product use in unapproved indication
+49,BS DO GA HT,product use issue
+50,MC,psoriasis
+51,BY EE NI TT,renal failure
+52,CA,rheumatoid arthritis
+53,AL HR LT PS,somnolence
+54,CD IQ OM,swelling
+55,MG TT UM,syncope
+56,PY,unevaluable event
+57,EE PY TT,urinary tract infection
+58,CM KG KP TT,urticaria
+59,BF KP UM,vision blurred
+60,CM,visual impairment
+61,BY FX OM,weight increased
+62,GH KH,white blood cell count decreased
