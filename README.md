@@ -7,7 +7,7 @@ Python package and analyses of openFDA using adverse events [API](https://open.f
      disease_reactions.ipynb                 # Association of different adverse effects with different disease areas
      drugs_taken_together.ipynb              # Drugs taken together
      disease_reactions_countries.ipynb       # Exploring different adverse events reported in different countries
-     csv files                               # Files storying key analyses from notebooks 
+     csv files                               # Files storing key analyses from notebooks 
 | data                                       # Contains API key file
 | src                                        # Code directory
      api.py                                  # Module containing functions for retrieving records from openDFA using openDFA API
