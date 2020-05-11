@@ -20,19 +20,19 @@
 18,secondary hypogonadism,arteriovenous fistula thrombosis,3,1,0.576
 19,bronchioloalveolar carcinoma,autoimmune myocarditis,2,1,1.0
 20,b-cell type acute leukaemia,b-cell type acute leukaemia,10,6,0.222
-21,hirsutism,bartholin,2,1,0.505
-22,drug diversion,biliary dilatation,14,4,0.883
-23,abdominal abscess,blastomycosis,2,1,1.0
-24,blastomycosis,blastomycosis,2,1,1.0
-25,s lymphoma recurrent,blood stem cell transplant failure,2,1,1.0
-26,adjustment disorder with depressed mood,blood triglycerides decreased,7,2,0.953
-27,hypomania,breathing-related sleep disorder,4,4,0.488
-28,mallory-weiss syndrome,bronchopulmonary dysplasia,12,6,0.276
-29,allergy test,bronchostenosis,7,3,0.764
-30,brucellosis,brucellosis,3,1,0.576
-31,post-traumatic epilepsy,cardioactive drug level increased,7,3,0.726
-32,febrile convulsion,catheter management,3,1,0.576
-33,diarrhoea infectious,catheter site pruritus,6,2,0.895
+21,drug diversion,biliary dilatation,14,4,0.883
+22,abdominal abscess,blastomycosis,2,1,1.0
+23,blastomycosis,blastomycosis,1,1,0.665
+24,s lymphoma recurrent,blood stem cell transplant failure,2,1,1.0
+25,adjustment disorder with depressed mood,blood triglycerides decreased,7,2,0.953
+26,hypomania,breathing-related sleep disorder,4,4,0.488
+27,mallory-weiss syndrome,bronchopulmonary dysplasia,12,6,0.276
+28,allergy test,bronchostenosis,7,3,0.764
+29,brucellosis,brucellosis,3,1,0.576
+30,post-traumatic epilepsy,cardioactive drug level increased,7,3,0.726
+31,febrile convulsion,catheter management,3,1,0.576
+32,diarrhoea infectious,catheter site pruritus,6,2,0.895
+33,seminoma,cerebral artery stenosis,7,2,0.629
 34,acinetobacter infection,cerebral aspergillosis,6,2,0.547
 35,chordoma,chordoma,0,2,0.317
 36,retinoblastoma,chorioretinal atrophy,2,2,0.759
@@ -49,92 +49,92 @@
 47,retinal vasculitis,corneal erosion,3,1,0.576
 48,keratoconus,corneal infiltrates,4,2,1.0
 49,keratoconus,corneal thinning,5,2,0.915
-50,crohn,crohn,1669,438,0.385
-51,cystic fibrosis,cystic fibrosis,58,16,0.73
-52,b-cell type acute leukaemia,cytokine release syndrome,35,12,0.916
-53,factor v deficiency,dandy-walker syndrome,9,4,0.973
-54,joint injection,dental prosthesis placement,2,1,0.505
-55,secondary hypogonadism,dermo-hypodermitis,3,1,0.576
-56,polypoidal choroidal vasculopathy,detachment of retinal pigment epithelium,4,2,0.572
-57,post-traumatic epilepsy,diabetic metabolic decompensation,7,3,0.726
-58,diarrhoea infectious,diarrhoea infectious,6,3,1.0
-59,retinitis,disseminated cryptococcosis,2,2,1.0
-60,disseminated tuberculosis,disseminated tuberculosis,17,6,0.966
-61,dermal cyst,drug abuser,8,3,0.64
-62,gouty tophus,drug cross-reactivity,3,1,0.576
-63,heparin-induced thrombocytopenia,drug cross-reactivity,3,1,0.576
-64,myelopathy,dural arteriovenous fistula,2,1,1.0
-65,blood testosterone decreased,economic problem,532,185,0.0
-66,circumcision,electrocardiogram t wave peaked,7,2,0.953
-67,cerebellar infarction,embolic cerebral infarction,7,2,0.953
-68,cytomegalovirus chorioretinitis,encephalitis cytomegalovirus,6,2,0.547
-69,meningitis viral,encephalitis cytomegalovirus,5,3,0.953
-70,eosinophilic granulomatosis with polyangiitis,eosinophilic granulomatosis with polyangiitis,3,2,0.741
-71,ependymoma,ependymoma,0,2,0.317
-72,erythrodermic psoriasis,erythrodermic psoriasis,7,2,0.782
-73,immunocytoma,erythropoiesis abnormal,7,2,0.782
-74,lymphoplasmacytoid lymphoma,erythropoiesis abnormal,7,2,0.782
-75,febrile bone marrow aplasia,febrile bone marrow aplasia,10,3,1.0
-76,cholestasis of pregnancy,feeding disorder of infancy or early childhood,6,2,0.895
-77,aneurysm,femoral artery aneurysm,5,3,0.953
-78,fibromatosis,fibromatosis,5,2,0.708
-79,cerebellar infarction,foetal exposure timing unspecified,3,1,0.402
-80,threatened labour,foetal exposure timing unspecified,2,1,0.505
-81,carotid artery dissection,fracture of penis,1,1,0.665
-82,social anxiety disorder,gambling disorder,31,11,0.578
-83,venoocclusive liver disease,gastroenteritis adenovirus,5,2,1.0
-84,gastrointestinal stromal tumour,gastrointestinal stromal tumour,61,21,0.401
-85,geotrichum infection,geotrichum infection,2,3,0.48
-86,ovarian failure,glioblastoma multiforme,4,2,1.0
-87,attention deficit,gynaecomastia,1235,562,0.189
-88,hyperactivity disorder,gynaecomastia,1235,562,0.189
-89,cerebellar infarction,haemorrhagic cerebral infarction,7,2,0.953
-90,breast cancer female,hair colour changes,165,45,0.0
-91,breast cancer female,hair disorder,137,45,0.01
-92,chemotherapy,hair disorder,194,52,0.002
-93,iridocyclitis,hair follicle tumour benign,6,2,0.843
-94,breast cancer female,hair texture abnormal,167,45,0.0
-95,henoch-schonlein purpura nephritis,henoch-schonlein purpura nephritis,3,1,0.576
-96,hepatosplenic t-cell lymphoma,hepatosplenic t-cell lymphoma,1,2,0.576
-97,hereditary angioedema,hereditary angioedema,55,38,0.0
-98,limbic encephalitis,herpes simplex encephalitis,3,1,0.402
-99,herpes simplex oesophagitis,herpes simplex oesophagitis,1,5,0.031
-100,kidney infection,herpes simplex oesophagitis,14,5,1.0
-101,urethritis,herpes simplex oesophagitis,3,5,0.157
-102,hidradenitis,hidradenitis,46,20,0.625
-103,choriocarcinoma,human chorionic gonadotropin increased,1,1,0.665
-104,gastrointestinal disorder,hyperchlorhydria,219,68,0.0
-105,hyperpyrexia,hypergammaglobulinaemia,6,2,0.895
-106,dermatitis diaper,hypertensive encephalopathy,3,2,0.741
-107,postpartum haemorrhage,hyperthermia malignant,3,1,0.576
-108,alloimmunisation,hypocapnia,7,2,0.953
-109,anuria,hyponatraemic syndrome,3,1,0.402
-110,eye irrigation,hypopyon,26,9,0.863
-111,immunoglobulin g4 related disease,immunoglobulin g4 related disease,0,4,0.034
-112,graft infection,implant site inflammation,3,2,0.741
-113,intestinal transplant,intestine transplant rejection,4,3,0.895
-114,abortion spontaneous,iodine allergy,2,1,0.505
-115,isosporiasis,isosporiasis,1,3,0.225
-116,leptospirosis,jarisch-herxheimer reaction,3,2,0.895
-117,progressive multiple sclerosis,joint hyperextension,3,1,0.402
-118,lymphocytosis,legionella infection,3,1,0.576
-119,retinoblastoma,lenticular opacities,4,2,1.0
-120,leprosy,leprosy,3,1,0.576
-121,osteopenia,low turnover osteopathy,134,54,0.013
-122,substance use,lower urinary tract symptoms,10,8,0.265
-123,anaplastic large cell lymphoma t- and null-cell types,lymphomatoid papulosis,3,1,0.402
-124,peyronie,malignant melanoma stage iv,3,1,0.576
-125,mantle cell lymphoma recurrent,mantle cell lymphoma recurrent,3,1,0.576
-126,graft versus host disease in liver,mean cell haemoglobin concentration increased,4,2,1.0
-127,graft infection,mediastinal abscess,7,2,0.629
-128,meningitis viral,meningitis viral,11,3,0.552
-129,metastases to skin,metastases to skin,6,2,0.895
-130,rheumatoid factor,mixed connective tissue disease,2,1,1.0
-131,mycobacterium chelonae infection,mycobacterium chelonae infection,2,1,0.505
-132,oesophageal spasm,mycotic aneurysm,3,1,0.576
-133,asymptomatic hiv infection,neonatal aspiration,3,2,0.741
-134,prophylaxis of abortion,neonatal hypotension,26,9,0.657
-135,graft versus host disease in lung,nocardiosis,10,4,0.896
+50,cystic fibrosis,cystic fibrosis,58,16,0.73
+51,b-cell type acute leukaemia,cytokine release syndrome,35,12,0.916
+52,factor v deficiency,dandy-walker syndrome,9,4,0.973
+53,joint injection,dental prosthesis placement,2,1,0.505
+54,secondary hypogonadism,dermo-hypodermitis,3,1,0.576
+55,polypoidal choroidal vasculopathy,detachment of retinal pigment epithelium,4,2,0.572
+56,post-traumatic epilepsy,diabetic metabolic decompensation,7,3,0.726
+57,diarrhoea infectious,diarrhoea infectious,6,3,1.0
+58,retinitis,disseminated cryptococcosis,2,2,1.0
+59,disseminated tuberculosis,disseminated tuberculosis,17,6,0.966
+60,dermal cyst,drug abuser,8,3,0.64
+61,gouty tophus,drug cross-reactivity,3,1,0.576
+62,heparin-induced thrombocytopenia,drug cross-reactivity,3,1,0.576
+63,myelopathy,dural arteriovenous fistula,2,1,1.0
+64,blood testosterone decreased,economic problem,532,185,0.0
+65,circumcision,electrocardiogram t wave peaked,7,2,0.953
+66,cerebellar infarction,embolic cerebral infarction,7,2,0.953
+67,cytomegalovirus chorioretinitis,encephalitis cytomegalovirus,6,2,0.547
+68,meningitis viral,encephalitis cytomegalovirus,5,3,0.953
+69,eosinophilic granulomatosis with polyangiitis,eosinophilic granulomatosis with polyangiitis,3,2,0.741
+70,ependymoma,ependymoma,0,2,0.317
+71,erythrodermic psoriasis,erythrodermic psoriasis,7,2,0.782
+72,immunocytoma,erythropoiesis abnormal,7,2,0.782
+73,lymphoplasmacytoid lymphoma,erythropoiesis abnormal,7,2,0.782
+74,febrile bone marrow aplasia,febrile bone marrow aplasia,10,3,1.0
+75,cholestasis of pregnancy,feeding disorder of infancy or early childhood,6,2,0.895
+76,aneurysm,femoral artery aneurysm,5,3,0.953
+77,fibromatosis,fibromatosis,5,2,0.708
+78,cerebellar infarction,foetal exposure timing unspecified,3,1,0.402
+79,threatened labour,foetal exposure timing unspecified,2,1,0.505
+80,carotid artery dissection,fracture of penis,1,1,0.665
+81,social anxiety disorder,gambling disorder,31,11,0.578
+82,venoocclusive liver disease,gastroenteritis adenovirus,5,2,1.0
+83,gastrointestinal stromal tumour,gastrointestinal stromal tumour,60,21,0.384
+84,geotrichum infection,geotrichum infection,2,3,0.48
+85,ovarian failure,glioblastoma multiforme,4,2,1.0
+86,attention deficit,gynaecomastia,1232,562,0.205
+87,hyperactivity disorder,gynaecomastia,1232,562,0.205
+88,cerebellar infarction,haemorrhagic cerebral infarction,7,2,0.953
+89,breast cancer female,hair colour changes,165,45,0.0
+90,breast cancer female,hair disorder,137,45,0.01
+91,chemotherapy,hair disorder,193,52,0.002
+92,iridocyclitis,hair follicle tumour benign,6,2,0.843
+93,breast cancer female,hair texture abnormal,167,45,0.0
+94,henoch-schonlein purpura nephritis,henoch-schonlein purpura nephritis,3,1,0.576
+95,hepatosplenic t-cell lymphoma,hepatosplenic t-cell lymphoma,1,2,0.576
+96,hereditary angioedema,hereditary angioedema,55,38,0.0
+97,limbic encephalitis,herpes simplex encephalitis,3,1,0.402
+98,herpes simplex oesophagitis,herpes simplex oesophagitis,1,5,0.031
+99,kidney infection,herpes simplex oesophagitis,14,5,1.0
+100,urethritis,herpes simplex oesophagitis,3,5,0.157
+101,hidradenitis,hidradenitis,46,20,0.625
+102,choriocarcinoma,human chorionic gonadotropin increased,1,1,0.665
+103,gastrointestinal disorder,hyperchlorhydria,219,68,0.0
+104,hyperpyrexia,hypergammaglobulinaemia,6,2,0.895
+105,dermatitis diaper,hypertensive encephalopathy,3,1,0.576
+106,postpartum haemorrhage,hyperthermia malignant,3,1,0.576
+107,alloimmunisation,hypocapnia,7,2,0.953
+108,anuria,hyponatraemic syndrome,3,1,0.402
+109,eye irrigation,hypopyon,26,9,0.863
+110,immunoglobulin g4 related disease,immunoglobulin g4 related disease,0,4,0.034
+111,graft infection,implant site inflammation,3,2,0.741
+112,intestinal transplant,intestine transplant rejection,4,3,0.895
+113,abortion spontaneous,iodine allergy,2,1,0.505
+114,isosporiasis,isosporiasis,1,3,0.225
+115,leptospirosis,jarisch-herxheimer reaction,3,2,0.895
+116,progressive multiple sclerosis,joint hyperextension,3,1,0.402
+117,lymphocytosis,legionella infection,3,1,0.576
+118,retinoblastoma,lenticular opacities,4,2,1.0
+119,leprosy,leprosy,3,1,0.576
+120,osteopenia,low turnover osteopathy,134,54,0.013
+121,substance use,lower urinary tract symptoms,10,8,0.265
+122,anaplastic large cell lymphoma t- and null-cell types,lymphomatoid papulosis,3,1,0.402
+123,peyronie,malignant melanoma stage iv,3,1,0.576
+124,mantle cell lymphoma recurrent,mantle cell lymphoma recurrent,3,1,0.576
+125,graft versus host disease in liver,mean cell haemoglobin concentration increased,4,2,1.0
+126,graft infection,mediastinal abscess,7,2,0.629
+127,meningitis viral,meningitis viral,11,3,0.552
+128,metastases to skin,metastases to skin,6,2,0.895
+129,rheumatoid factor,mixed connective tissue disease,2,1,1.0
+130,mycobacterium chelonae infection,mycobacterium chelonae infection,2,1,0.505
+131,oesophageal spasm,mycotic aneurysm,3,1,0.576
+132,asymptomatic hiv infection,neonatal aspiration,3,2,0.741
+133,prophylaxis of abortion,neonatal hypotension,26,9,0.657
+134,graft versus host disease in lung,nocardiosis,10,4,0.896
+135,s lymphoma recurrent,non-hodgkins lymphoma recurrent,3,1,0.576
 136,haemarthrosis,nutritional condition abnormal,4,2,1.0
 137,non-24-hour sleep-wake disorder,obstructive pancreatitis,3,1,0.576
 138,h1n1 influenza,obstructive uropathy,3,1,0.576
@@ -166,44 +166,41 @@
 164,subarachnoid haemorrhage,product compounding quality issue,2,1,1.0
 165,general anaesthesia,product tampering,69,24,0.264
 166,mechanical ventilation,propofol infusion syndrome,7,3,0.62
-167,psoriasis,psoriasis,1831,542,0.022
+167,psoriasis,psoriasis,1826,542,0.026
 168,aura,psychotic symptom,10,3,1.0
 169,gastrointestinal disorder,rebound effect,195,68,0.148
 170,substance use,reduced bladder capacity,8,8,0.047
 171,refractory anaemia with an excess of blasts,refractory anaemia with an excess of blasts,3,1,0.576
 172,small cell carcinoma,retinal depigmentation,2,1,1.0
 173,congenital retinoblastoma,retinal pigment epitheliopathy,5,5,0.175
-174,s arteritis,s arteritis,4,4,0.564
-175,takayasu,s arteritis,4,4,0.564
-176,craniotomy,scan abnormal,2,1,0.505
-177,scedosporium infection,scedosporium infection,6,3,0.7
-178,ovarian cancer stage iv,scleroderma renal crisis,3,1,0.576
-179,peyronie,scrotal erythema,2,1,0.505
-180,intraoperative care,sense of oppression,10,3,0.79
-181,alopecia,sexual dysfunction,207,52,0.0
-182,sickle cell anaemia,sickle cell anaemia with crisis,27,8,0.68
-183,trigger finger,soft tissue swelling,4,2,0.572
-184,dermal cyst,somatic delusion,3,3,0.708
-185,tinea infection,somatic delusion,7,3,0.62
-186,eustachian tube dysfunction,speech sound disorder,3,3,0.708
-187,stiff person syndrome,stiff person syndrome,2,2,1.0
-188,adjustment disorder with mixed anxiety and depressed mood,sweat discolouration,3,5,0.157
-189,s arteritis,takayasu,4,4,0.564
-190,takayasu,takayasu,4,4,0.564
-191,skin test,therapeutic product cross-reactivity,9,3,0.567
-192,prophylaxis of abortion,thrombocytopenia neonatal,28,9,0.367
-193,eye irrigation,toxic anterior segment syndrome,9,3,0.872
-194,s lymphoma recurrent,transformation to acute myeloid leukaemia,3,1,0.576
-195,acute lymphocytic leukaemia refractory,transfusion-related acute lung injury,3,1,0.576
-196,leiomyosarcoma metastatic,tumour pseudoprogression,3,1,0.576
-197,lepromatous leprosy,type 2 lepra reaction,2,2,1.0
-198,type 2 lepra reaction,type 2 lepra reaction,3,1,0.576
-199,visceral leishmaniasis,type 2 lepra reaction,2,1,0.505
-200,general anaesthesia,unwanted awareness during anaesthesia,66,25,0.049
-201,hypomania,verbal abuse,7,3,0.764
-202,gene mutation,virilism,1,1,0.665
-203,visceral leishmaniasis,visceral leishmaniasis,3,1,0.402
-204,ovarian failure,vith nerve paralysis,7,2,0.953
-205,vulvovaginal mycotic infection,vulvovaginal burning sensation,48,35,0.061
-206,vulvovaginal mycotic infection,vulvovaginal swelling,58,18,0.076
-207,blood immunoglobulin g decreased,wrong device used,2,1,1.0
+174,craniotomy,scan abnormal,2,1,0.505
+175,scedosporium infection,scedosporium infection,6,3,0.7
+176,ovarian cancer stage iv,scleroderma renal crisis,3,1,0.576
+177,peyronie,scrotal erythema,2,1,0.505
+178,intraoperative care,sense of oppression,10,3,0.79
+179,sickle cell anaemia,sickle cell anaemia with crisis,27,8,0.68
+180,trigger finger,soft tissue swelling,4,2,0.572
+181,dermal cyst,somatic delusion,3,3,0.708
+182,tinea infection,somatic delusion,7,3,0.62
+183,eustachian tube dysfunction,speech sound disorder,3,3,0.708
+184,stiff person syndrome,stiff person syndrome,2,2,1.0
+185,adjustment disorder with mixed anxiety and depressed mood,sweat discolouration,3,5,0.157
+186,s arteritis,takayasus arteritis,3,4,0.347
+187,takayasu,takayasus arteritis,3,4,0.347
+188,skin test,therapeutic product cross-reactivity,9,3,0.567
+189,prophylaxis of abortion,thrombocytopenia neonatal,28,9,0.367
+190,eye irrigation,toxic anterior segment syndrome,9,3,0.872
+191,s lymphoma recurrent,transformation to acute myeloid leukaemia,3,1,0.576
+192,acute lymphocytic leukaemia refractory,transfusion-related acute lung injury,3,1,0.576
+193,leiomyosarcoma metastatic,tumour pseudoprogression,3,1,0.576
+194,lepromatous leprosy,type 2 lepra reaction,2,2,1.0
+195,type 2 lepra reaction,type 2 lepra reaction,3,1,0.576
+196,visceral leishmaniasis,type 2 lepra reaction,2,1,0.505
+197,general anaesthesia,unwanted awareness during anaesthesia,66,25,0.049
+198,hypomania,verbal abuse,7,3,0.764
+199,gene mutation,virilism,1,1,0.665
+200,visceral leishmaniasis,visceral leishmaniasis,3,1,0.402
+201,ovarian failure,vith nerve paralysis,7,2,0.953
+202,vulvovaginal mycotic infection,vulvovaginal burning sensation,48,35,0.061
+203,vulvovaginal mycotic infection,vulvovaginal swelling,58,18,0.076
+204,blood immunoglobulin g decreased,wrong device used,2,1,1.0
