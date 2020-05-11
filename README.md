@@ -30,14 +30,15 @@ usage: runner.py [-h] [--num_time_ranges NUM_TIME_RANGES]
 optional arguments:
   -h, --help            show this help message and exit
   --num_time_ranges NUM_TIME_RANGES
+                        number of time periods to search over
   --parse_from_crawled  parse previously saved records
-  --db_dir DB_DIR       parse previously saved records```
+  --db_dir DB_DIR       path to db folder```
 ```
-To run crawler for downloading records from openFDA run:
+To run crawler for downloading records from openFDA use:
 ```
 pipenv run python ./runner.py --num_time_ranges=2
 ```
-Results will be saved into json database under directory `db_dir_%Y-%m-%d-%H`
+This will start parallel processes based on the number of cpus and api keys provided (whichever is smaller). Results will be saved into json TinyDB database under directory `db_dir_%Y-%m-%d-%H`.
 
 To parse previously downloading from openFDA records run:
 ```
