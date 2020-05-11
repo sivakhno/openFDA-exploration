@@ -16,6 +16,11 @@ def get_drugindication(record):
 
 
 def get_generic_name(record):
+    '''
+    FDA provides common ontologies for generic names https://open.fda.gov/apis/openfda-fields/
+    Here we are trying to return a common generic name from a set of records via sorting
+    and returning the first in the sorted list
+    '''
     return ','.join([sorted(item['openfda']['generic_name'])[0] for item in record['patient']['drug']])
 
 
