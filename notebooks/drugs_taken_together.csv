@@ -1,10 +1,13 @@
 ,cluster_id,drugs,mean_dist
-0,40, and tenofovir alafenamide  and tenofovir disoproxil fumarate  cobicistat  emtricitabine elvitegravir,0.3737150026417128
-1,79, ascorbic acid  potassium chloride  sodium ascorbate  sodium sulfate polyethylene glycol 3350,0.25684509757129453
-2,68, calcium chloride  magnesium chloride  sodium chloride  sodium lactate dextrose monohydrate icodextrin,0.314416904408181
-3,282,adalimumab etanercept folic acid methotrexate prednisone,0.6805607619057564
-4,350,atazanavir darunavir emtricitabine and tenofovir disoproxil fumarate raltegravir ritonavir,0.6128177422285807
-5,188,aztreonam dornase alfa ivacaftor lumacaftor and ivacaftor pancrelipase tobramycin,0.6749487570003709
-6,295,basiliximab methylprednisolone mycophenolate mofetil prednisolone tacrolimus,0.6489929282684175
-7,324,dexlansoprazole esomeprazole magnesium lansoprazole omeprazole magnesium pantoprazole sodium,0.25785157589573765
-8,367,didanosine indinavir sulfate nelfinavir mesylate nevirapine stavudine,0.6443747621577495
+0,40, amphetamine sulfate and amphetamine aspartate  dextroamphetamine saccharate bismuth dextroamphetamine sulfate lisdexamfetamine dimesylate,0.5612235920256432
+1,4, and anhydrous citric acid  magnesium oxide meprobamate norelgestromin and ethinyl estradiol sodium picosulfate,0.56
+2,17, and caffeine  aspirin  acetaminophen naphazoline hydrochloride and pheniramine maleate nsaid,0.4780312239717945
+3,82, and hyoscyamine sulfate  methylene blue  phenyl salicylate methenamine pentosan polysulfate sodium,0.33187675070028005
+4,49, and menthol  eucalyptus oil camphor  dextromethorphan polistirex synthetic,0.28800000000000003
+5,34, and tenofovir alafenamide  and tenofovir disoproxil fumarate  cobicistat  emtricitabine  pseudoephedrine hydrochloride elvitegravir,0.537302085167856
+6,103, ascorbic acid  potassium chloride  sodium ascorbate  sodium sulfate drospirenone and estradiol polyethylene glycol 3350,0.4561424288689545
+7,26, calcium chloride  magnesium chloride  sodium chloride  sodium lactate dextrose monohydrate icodextrin,0.314416904408181
+8,79, capsicum oleresin  menthol  methyl salicylate camphor menthol,0.42666666666666664
+9,84, monobasic  monohydrate  sodium phosphate sebelipase alfa sodium phosphate,0.5204040404040404
+10,172, thyroidinum badiaga baryta carbonica calcareaarsenicum iodatum carbonica cholesterinum fucus vesiculosus iodium pulsatilla suvorexant,0.32715719063545157
+11,344,alendronate sodium and cholecalciferol dexlansoprazole esomeprazole magnesium lansoprazole omeprazole magnesium pantoprazole sodium,0.45674653394580933
